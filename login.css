@@ -1,0 +1,94 @@
+body{
+    justify-items: center;
+    background-color:  rgba(128, 128, 128, 0.26);
+}
+
+.login{
+    width: 400px;
+    height: 600px;
+    border: 5px solid #ff411b;
+    justify-items: center;
+    border-radius: 10px;
+    background-color: #9953450e;
+}
+
+input{
+    display: block;
+    margin: 5px;
+    width: 360px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size:20px;
+}
+
+input:hover{
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+
+.login-button{
+    background-color: #ff411b;
+}
+
+p .a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 250px;
+    color: grey;
+}
+
+button{
+    width: 360px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #ff411b;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.signup{
+    margin-left: 80px;
+    color: grey;
+}
+
+.signup a{
+    text-decoration: none;
+    color: rgb(39, 39, 230);
+}
+
+img{
+    width: 400px;
+    height: 200px;
+}
+
+h3{
+    color: grey;
+}
+
+h4 a{
+    display: inline;
+    text-decoration: none;
+    color: grey;
+}
+
+h4 img{
+    position: relative;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    padding-left: 30px;
+}

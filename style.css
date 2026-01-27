@@ -1,0 +1,405 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.432);
+}
+
+/* NAVIGATION BAR STYLING*/
+
+nav{
+    background-color: #ff411b;
+    height: 100px;
+    text-align: center;
+    background-image: url(./Daraz\ logo\ white.jpg);
+    background-repeat: no-repeat;
+    background-size: 165px;
+    background-position: 50px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    border-bottom: 2px solid black;
+}
+
+.home{
+    font-size: 25px;
+    position: relative;
+    right: 400px;
+    top: 75px;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.home:hover{
+    border: 2px groove black;
+}
+
+#cart{
+    border: 2px groove #ff411b;
+    border-radius: 10px;
+}
+
+#cart:hover{
+    border: 2px groove black;
+    border-radius: 10px;
+}
+
+#nav-bar{
+    width: 100%;
+    height: 120px;
+    background-color: #ff411b;
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    margin: 20px;
+    width: 50px;
+    background-color: #ff411b;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 700px;
+    height: 50px;
+    background-image: url(./Search\ icon\ orange.png) ;
+    background-repeat: no-repeat;
+    background-position: 715px;
+    background-size: 40px;
+    background-color: #ffff;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+input:hover{
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+::placeholder{
+    color: grey;
+}
+
+button{
+    background-color: #ff411b;
+    margin-left: 25px;
+    width: auto;
+    text-decoration: none;
+    height: 25px;
+    border: 2px groove #ff411b;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 2px groove black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #ff411b;
+}
+
+.h4{
+    height: 15px;
+    width: 640px;
+    color: white;
+    background-color: #ff411b;
+    margin-left: 650px;
+
+}
+
+p{
+    background-color: #ff411b;
+}
+
+/* BODY STYLING */
+
+.main{
+    width: 100%;
+}
+
+.ad1{
+    margin-top: 5px;
+    width: 100%;
+    height: 550px;
+    background-image: url(./Daraz\ banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+.h1{
+    position: relative;
+    top: 5px;
+    border-radius: 20px;
+    background-color: #ff411b;
+    width: 220px;
+    margin-left: 560px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ad1:hover{
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+.toys{
+    height: 350px;
+    width: 19%;
+    padding-bottom: 20px;
+    background-color: #ff411b;
+    background-image: url(./Kids\ toys.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin: 4px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.toys:hover{
+   box-shadow: 0px 0px 10px 5px black;
+}
+
+.image{
+    width: 24%;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.details{
+    position: relative;
+    top: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    vertical-align: middle;
+}
+
+.kmh{
+    height: 350px;
+    width: 19%;
+    padding-bottom: 20px;
+    background-color: #ff411b;
+    background-image: url(./Kitchen\ must\ haves.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin: 4px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+h2{
+    background-color: #ff411b;
+    position: relative;
+    top: 250px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.kmh:hover{
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+h3{
+    padding-right: 5px;
+    color: white;
+    vertical-align: middle;
+}
+
+.grocery{
+    height: 350px;
+    width: 19%;
+    padding-bottom: 20px;
+    background-color: #ff411b;
+    background-image: url(./Ramzan-Grocery-Pack.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin: 4px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 10px;
+    border-radius: 10px;   
+    border: 1px solid black;
+}
+
+.grocery:hover{
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+.mf{
+    height: 350px;
+    width: 19%;
+    padding-bottom: 20px;
+    background-color: #ff411b;
+    background-image: url(./Mens\ Fashion.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin: 4px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 10px; 
+    border-radius: 10px; 
+    border: 1px solid black;
+
+}
+
+.mf:hover{
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+.electronics{
+    height: 350px;
+    width: 19%;
+    padding-bottom: 20px;
+    background-color: #ff411b;
+    background-image: url(./Electronics.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin: 4px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 10px;   
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.electronics:hover{
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+
+.ad2{
+    margin-top: 5px;
+    width: 100%;
+    height: 470px;
+    background-image: url(./mega\ eidi\ daraz.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+.ad2:hover{
+    box-shadow: 0px 0px 5px 5px black;
+}
+
+.ad3{
+    width: 100%;
+    height: 458px;
+    background-color: #ff411b;
+    background-image: url(./nido.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.ad3:hover{
+   box-shadow: 0px 0px 5px 5px black;
+}
+
+/* FOOTER STYLING */
+
+table{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #ff411b;
+    color: white;
+    inset: 0;
+}
+
+td{
+    padding: 5px;
+}
+
+.bt{
+    width: 100%;
+    height: 20px;
+    background-color: #ff411b;
+}
+.h3{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+
+.mb{
+    width: 100%;
+    height: 80px;
+    background-color: #ff411b;
+    border-top: 2px solid white;
+    background-image: url(./Daraz\ logo\ white.jpg);
+    background-repeat: no-repeat;
+    background-size: 140px;
+    background-position: 20px;
+}
+
+.p{
+    color: white;
+    margin-left: 200px;
+    margin-top: 22px;
+    border: 1px solid white;
+    width: 80px;
+    text-align: center;
+}
+
+.p2{
+    color: white;
+    margin-left: 340px;
+    border: 1px solid white;
+    width: 190px;
+    height: 30px;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 37px;
+    padding-top: 7px;
+    padding-left: 5px;
+    background-image: url(./2560px-Flag_of_Pakistan.svg\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 150px;
+}
+
+.mba{
+    color: white;
+}
+
+.mba{
+    color: white;
+    position: relative;
+    bottom: 130px;
+    text-align: center;
+    padding-left: 140px;
+    font-size: 45px;
+}

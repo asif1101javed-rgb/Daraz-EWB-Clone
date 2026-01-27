@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NAVIGATION BAR STYLING*/
+
+nav{
+    background-color: #ff411b;
+    height: 100px;
+    text-align: center;
+    background-image: url(./Daraz\ logo\ white.jpg);
+    background-repeat: no-repeat;
+    background-size: 165px;
+    background-position: 50px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    border-bottom: 2px solid black;
+}
+
+.home{
+    font-size: 25px;
+    position: relative;
+    right: 400px;
+    top: 75px;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.home:hover{
+    border: 2px groove black;
+}
+
+#cart{
+    border: 2px groove #ff411b;
+    border-radius: 10px;
+}
+
+#cart:hover{
+    border: 2px groove black;
+    border-radius: 10px;
+}
+
+#nav-bar{
+    width: 100%;
+    height: 120px;
+    background-color: #ff411b;
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    margin: 20px;
+    width: 50px;
+    background-color: #ff411b;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 700px;
+    height: 50px;
+    background-image: url(./Search\ icon\ orange.png) ;
+    background-repeat: no-repeat;
+    background-position: 715px;
+    background-size: 40px;
+    background-color: #ffff;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px
+}
+
+::placeholder{
+    color: grey;
+}
+
+button{
+    background-color: #ff411b;
+    margin-left: 25px;
+    width: auto;
+    text-decoration: none;
+    height: 25px;
+    border: 2px groove #ff411b;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+button:hover{
+    border: 2px groove black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #ff411b;
+}
+
+.h4{
+    height: 15px;
+    width: 640px;
+    color: white;
+    background-color: #ff411b;
+    margin-left: 650px;
+
+}
+
+p{
+    background-color: #ff411b;
+}
+
+/* BODY STYLING */
+
+.cart-image{
+    width: 100%;
+    height: 850px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(pexels-karolina-grabowska-5632397.jpg);
+    align-content: end;
+}
+
+body{
+    justify-items: center;
+}
+
+.cart-page-img{
+    height: 425px;
+    width: 535px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(big\ banner.png);
+    margin-left: 60%;
+    margin-bottom: 300px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: 0px 0px 3px 3px black;
+}
+
+h1{
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}
+
+.checkout{
+    width: 400px;
+    height: 150px;
+    background-color: #ff411b;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 30px;
+    margin-top: 60px;
+    border-radius: 30px;
+}
+
+.checkout:hover{
+    box-shadow: 0px 0px 5px 5px black;
+}
+
+/* FOOTER STYLING */
+
+table{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #ff411b;
+    color: white;
+}
+
+td{
+    padding: 5px;
+}
+
+.bt{
+    width: 100%;
+    height: 20px;
+    background-color: #ff411b;
+}
+.h3{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+
+.mb{
+    width: 100%;
+    height: 80px;
+    background-color: #ff411b;
+    border-top: 2px solid white;
+    background-image: url(./Daraz\ logo\ white.jpg);
+    background-repeat: no-repeat;
+    background-size: 140px;
+    background-position: 20px;
+}
+
+.p{
+    color: white;
+    margin-left: 200px;
+    margin-top: 22px;
+    border: 1px solid white;
+    width: 80px;
+    text-align: center;
+}
+
+.p2{
+    color: white;
+    margin-left: 340px;
+    border: 1px solid white;
+    width: 190px;
+    height: 30px;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 37px;
+    padding-top: 7px;
+    padding-left: 5px;
+    background-image: url(./2560px-Flag_of_Pakistan.svg\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 150px;
+}
+
+.mba{
+    color: white;
+}
+
+.mba{
+    color: white;
+    position: relative;
+    bottom: 130px;
+    text-align: center;
+    padding-left: 140px;
+    font-size: 45px;
+}
